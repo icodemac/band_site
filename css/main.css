@@ -267,3 +267,74 @@ img {
 .cities .city .city-info p {
   margin: 15px 0;
 }
+
+/* Contact */
+
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.contact-info i {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 0.87rem;
+  margin: 0.25rem 0.44rem;
+  border: 1px solid #f0e9ff;
+  border-radius: 5px;
+  color: #495057;
+  font-size: 0.81rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.half-flex {
+  display: flex;
+}
+
+.contact-name {
+  padding-right: 0.87rem;
+  flex: 1;
+}
+
+.contact-email {
+  flex: 1;
+}
+
+.contact .btn {
+  float: right;
+}
+
+.contact-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 50px 0;
+}
+
+footer .socials i {
+  font-size: 1.5rem;
+  margin-left: 0.14rem;
+  color: #555;
+}
+
+footer .socials i:hover {
+  opacity: 0.6;
+}
+
+footer a {
+  text-decoration: underline;
+  color: var(--text-dark__color);
+}
